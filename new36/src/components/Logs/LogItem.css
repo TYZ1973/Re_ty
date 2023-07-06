@@ -1,0 +1,34 @@
+
+.item{
+
+    display: flex;
+    background-color: rgb(168, 154, 90);
+    
+    margin: 10px 0;
+    padding: 6px;
+    
+}
+
+.delete{
+    
+    margin-right: 5px;
+    padding: 2px;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .3s;
+}
+.delete:hover{
+
+    color: red;
+    transform: rotate(180deg);
+}

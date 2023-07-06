@@ -1,0 +1,22 @@
+.logs-form{
+
+    margin: 0 auto;
+    margin-bottom: 16px;
+    background-color: wheat;
+
+    
+}
+
+#btn button{
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+#btn button:hover{
+
+    background-color: chartreuse;
+
+}

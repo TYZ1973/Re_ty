@@ -1,0 +1,48 @@
+
+.date{
+
+    width: 90px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+}
+
+.month{
+
+    height: 30px;
+    line-height: 30px;
+    color: aliceblue;
+    background-color: crimson;
+    font-size: 20px;
+    
+}
+
+.day{
+    height: 60px;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.content{
+    flex: auto;
+    text-align: center;
+    font-weight: bold;
+    
+
+    
+}
+
+.desc{
+
+    font-size: 20px;
+    color: black;
+
+
+}
+
+.time{
+
+    color: crimson;
+}
