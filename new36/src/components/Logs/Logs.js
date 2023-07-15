@@ -8,6 +8,7 @@ const Logs = (props) =>{
       
 
     const logItemData = props.logsData.map(
+
         (item ,index)=> <
          LogItem 
         //  logIndex = {index}
@@ -19,14 +20,15 @@ const Logs = (props) =>{
          
          />)
 
-            if(logItemData.length === 0 ){
-                logItemData = <p>no data</p>;
-            };
+            // if(logItemData.length === 0 ){
+
+            //     logItemData = <p>no data</p>;
+            // };
 
         return <Card className="logs"> 
         {
-        //   logItemData.length !==0 ? logItemData : <p>no data</p>
-        logItemData
+        logItemData.length !==0 ? logItemData : <p>no data</p>
+        // logItemData
         }
 
 
