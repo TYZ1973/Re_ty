@@ -1,0 +1,10 @@
+.Meals{
+
+    /* background-color: palevioletred; */
+    position: absolute;
+    top: 100rem;
+    bottom: 0;
+    overflow: auto;
+    padding-bottom: 120rem;
+
+}

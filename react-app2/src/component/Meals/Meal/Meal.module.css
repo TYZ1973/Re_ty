@@ -1,0 +1,54 @@
+.Meal{
+
+    
+    display:flex;
+    align-items: center;
+    border-bottom: 1px #f2f2f2 solid;
+    padding: 30rem 20rem;
+}
+
+.ImgBox{
+    
+    width: 280rem;
+
+}
+img{
+
+    width: 100%;
+
+}
+.Title{
+
+    font-weight: normal;
+    font-size: 36rem;
+    margin: 0;
+}
+
+.Desc{
+    
+    color: #808080;
+    font-size: 24rem;
+    padding-right: 40rem;
+}
+
+.PriceWrap{
+
+    margin-top: 40rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Price{
+    font-weight: bold;
+    font-size: 36rem;
+}
+.Price::before{
+    content: '$ ';
+    font-size: 28rem;
+}
+
+.DescBox{
+
+        flex: auto;
+
+}
